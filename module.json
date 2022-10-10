@@ -1,0 +1,75 @@
+{
+    "name": "grimdark-content-export",
+    "title": "Grimdark's Content Export",
+    "description": "Grimdark's Content Export",
+    "version": "1.0.0",
+    "author": "Grimdark",
+    "authors": [
+        {
+            "name": "Grimdark",
+            "discord": "Grimdark#6715",
+            "url": ""
+        }
+    ],
+    "minimumCoreVersion": "10.287.0",
+    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": 10,
+        "verified": "10.287"
+    },
+    "packs": [
+        {
+            "name": "module-creatures",
+            "label": "Module Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-items",
+            "label": "Module Items",
+            "path": "./packs/items.db",
+            "entity": "Item",
+            "type": "Item",
+            "system": "dnd5e"
+        },
+        {
+            "name": "module-scenes",
+            "label": "Module Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene"
+        },
+        {
+            "name": "module-journal-entries",
+            "label": "Module Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "module-macros",
+            "label": "Module Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro",
+            "type": "Macro"
+        },
+        {
+            "name": "module-roll-tables",
+            "label": "Module Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+        {
+            "name": "module-playlists",
+            "label": "Module Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist",
+            "type": "Playlist"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
